@@ -1,0 +1,9 @@
+<svg id="idealizadores" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_105_119" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-1" width="25" height="25">
+<path d="M2.66248 21.75H6.90498L22.4615 6.19349L18.2185 1.95099L2.66248 17.5075V21.75Z" fill="white" stroke="white" stroke-width="4" stroke-linejoin="round"/>
+<path d="M13.976 6.19348L18.2185 10.436" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</mask>
+<g mask="url(#mask0_105_119)">
+<path d="M0 0H24V24H0V0Z" fill="#E5A41E"/>
+</g>
+</svg>

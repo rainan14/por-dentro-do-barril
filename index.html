@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/inicio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <title>Por Dentro do Barril</title>
+  </head>
+  <body>
+    <header>
+      <!-- menu comuptador -->
+      <nav id="menu-desktop">
+        <ul>
+          <li class="active"><a href="/">início</a></li>
+          <li><a href="/historia.html">história</a></li>
+          <li><a href="/personagens.html">personagens</a></li>
+          <li><a href="/chapolin.html">chapolin</a></li>
+          <li><a href="/viloes.html">vilões</a></li>
+          <li><a href="/idealizadores.html">idealizadores</a></li>
+        </ul>
+      </nav>
+
+      <!-- menu mobile -->
+      <nav id="menu-mobile">
+        <ul>
+          <li class="active">
+            <a href="/">
+              <svg
+                id="casa"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 21C5.45 21 4.97933 20.8043 4.588 20.413C4.196 20.021 4 19.55 4 19V10C4 9.68333 4.071 9.38333 4.213 9.1C4.35433 8.81667 4.55 8.58333 4.8 8.4L10.8 3.9C10.9833 3.76667 11.175 3.66667 11.375 3.6C11.575 3.53333 11.7833 3.5 12 3.5C12.2167 3.5 12.425 3.53333 12.625 3.6C12.825 3.66667 13.0167 3.76667 13.2 3.9L19.2 8.4C19.45 8.58333 19.646 8.81667 19.788 9.1C19.9293 9.38333 20 9.68333 20 10V19C20 19.55 19.8043 20.021 19.413 20.413C19.021 20.8043 18.55 21 18 21H14V14H10V21H6Z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="/historia.html">
+              <svg
+                id="historia"
+                width="25"
+                height="24"
+                fill="none"
+                viewBox="0 0 25 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.99996 20C3.61662 20 3.32496 19.8293 3.12496 19.488C2.92496 19.146 2.93329 18.8083 3.14996 18.475L11.35 5.35C11.55 5.03333 11.8333 4.875 12.2 4.875C12.5666 4.875 12.85 5.03333 13.05 5.35L21.25 18.475C21.4666 18.8083 21.475 19.146 21.275 19.488C21.075 19.8293 20.7833 20 20.4 20H3.99996Z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="/personagens.html">
+              <svg
+                id="personagens"
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_105_110)">
+                  <path
+                    d="M12.4 5.5C13.3283 5.5 14.2185 5.86875 14.8749 6.52513C15.5313 7.1815 15.9 8.07174 15.9 9C15.9 9.92826 15.5313 10.8185 14.8749 11.4749C14.2185 12.1313 13.3283 12.5 12.4 12.5C11.4718 12.5 10.5815 12.1313 9.92515 11.4749C9.26877 10.8185 8.90002 9.92826 8.90002 9C8.90002 8.07174 9.26877 7.1815 9.92515 6.52513C10.5815 5.86875 11.4718 5.5 12.4 5.5ZM5.40002 8C5.96002 8 6.48002 8.15 6.93002 8.42C6.78002 9.85 7.20002 11.27 8.06002 12.38C7.56002 13.34 6.56002 14 5.40002 14C4.60437 14 3.84131 13.6839 3.2787 13.1213C2.71609 12.5587 2.40002 11.7956 2.40002 11C2.40002 10.2044 2.71609 9.44129 3.2787 8.87868C3.84131 8.31607 4.60437 8 5.40002 8ZM19.4 8C20.1957 8 20.9587 8.31607 21.5213 8.87868C22.084 9.44129 22.4 10.2044 22.4 11C22.4 11.7956 22.084 12.5587 21.5213 13.1213C20.9587 13.6839 20.1957 14 19.4 14C18.24 14 17.24 13.34 16.74 12.38C17.6119 11.2544 18.0166 9.8362 17.87 8.42C18.32 8.15 18.84 8 19.4 8ZM5.90002 18.25C5.90002 16.18 8.81002 14.5 12.4 14.5C15.99 14.5 18.9 16.18 18.9 18.25V20H5.90002V18.25ZM0.400024 20V18.5C0.400024 17.11 2.29002 15.94 4.85002 15.6C4.26002 16.28 3.90002 17.22 3.90002 18.25V20H0.400024ZM24.4 20H20.9V18.25C20.9 17.22 20.54 16.28 19.95 15.6C22.51 15.94 24.4 17.11 24.4 18.5V20Z"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_105_110">
+                    <rect
+                      width="24"
+                      height="24"
+                      transform="translate(0.400024)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="/chapolin.html">
+              <svg
+                id="chapolin"
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.6 21.35L11.15 20.03C5.99998 15.36 2.59998 12.27 2.59998 8.5C2.59998 5.41 5.01998 3 8.09998 3C9.83998 3 11.51 3.81 12.6 5.08C13.69 3.81 15.36 3 17.1 3C20.18 3 22.6 5.41 22.6 8.5C22.6 12.27 19.2 15.36 14.05 20.03L12.6 21.35Z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="/viloes.html">
+              <svg
+                id="viloes"
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.80005 22V17.75C6.15005 17.4667 5.57938 17.0877 5.08805 16.613C4.59605 16.1377 4.17938 15.6 3.83805 15C3.49605 14.4 3.23772 13.7583 3.06305 13.075C2.88772 12.3917 2.80005 11.7 2.80005 11C2.80005 8.36667 3.73338 6.20833 5.60005 4.525C7.46672 2.84167 9.86672 2 12.8 2C15.7334 2 18.1334 2.84167 20 4.525C21.8667 6.20833 22.8 8.36667 22.8 11C22.8 11.7 22.7127 12.3917 22.538 13.075C22.3627 13.7583 22.1044 14.4 21.763 15C21.421 15.6 21.0044 16.1377 20.513 16.613C20.021 17.0877 19.45 17.4667 18.8 17.75V22H6.80005ZM8.80005 20H9.80005V22H11.8V20H13.8V22H15.8V20H16.8V16.45C17.4334 16.3 17.996 16.05 18.488 15.7C18.9794 15.35 19.396 14.9333 19.738 14.45C20.0794 13.9667 20.3417 13.4333 20.525 12.85C20.7084 12.2667 20.8 11.65 20.8 11C20.8 8.91667 20.0627 7.22933 18.588 5.938C17.1127 4.646 15.1834 4 12.8 4C10.4167 4 8.48772 4.646 7.01305 5.938C5.53772 7.22933 4.80005 8.91667 4.80005 11C4.80005 11.65 4.89172 12.2667 5.07505 12.85C5.25838 13.4333 5.52072 13.9667 5.86205 14.45C6.20405 14.9333 6.62505 15.35 7.12505 15.7C7.62505 16.05 8.18338 16.3 8.80005 16.45V20ZM11.3 15.75H14.3L12.8 12.75L11.3 15.75ZM9.30005 13C9.85005 13 10.321 12.804 10.713 12.412C11.1044 12.0207 11.3 11.55 11.3 11C11.3 10.45 11.1044 9.979 10.713 9.587C10.321 9.19567 9.85005 9 9.30005 9C8.75005 9 8.27938 9.19567 7.88805 9.587C7.49605 9.979 7.30005 10.45 7.30005 11C7.30005 11.55 7.49605 12.0207 7.88805 12.412C8.27938 12.804 8.75005 13 9.30005 13ZM16.3 13C16.85 13 17.321 12.804 17.713 12.412C18.1044 12.0207 18.3 11.55 18.3 11C18.3 10.45 18.1044 9.979 17.713 9.587C17.321 9.19567 16.85 9 16.3 9C15.75 9 15.2794 9.19567 14.888 9.587C14.496 9.979 14.3 10.45 14.3 11C14.3 11.55 14.496 12.0207 14.888 12.412C15.2794 12.804 15.75 13 16.3 13ZM8.80005 20V16.45C8.18338 16.3 7.62505 16.05 7.12505 15.7C6.62505 15.35 6.20405 14.9333 5.86205 14.45C5.52072 13.9667 5.25838 13.4333 5.07505 12.85C4.89172 12.2667 4.80005 11.65 4.80005 11C4.80005 8.91667 5.53772 7.22933 7.01305 5.938C8.48772 4.646 10.4167 4 12.8 4C15.1834 4 17.1127 4.646 18.588 5.938C20.0627 7.22933 20.8 8.91667 20.8 11C20.8 11.65 20.7084 12.2667 20.525 12.85C20.3417 13.4333 20.0794 13.9667 19.738 14.45C19.396 14.9333 18.9794 15.35 18.488 15.7C17.996 16.05 17.4334 16.3 16.8 16.45V20H9.80005H8.80005Z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="/idealizadores.html">
+              <svg
+                id="idealizadores"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask
+                  id="mask0_105_119"
+                  style="mask-type: alpha"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="-1"
+                  width="25"
+                  height="25"
+                >
+                  <path
+                    d="M2.66248 21.75H6.90498L22.4615 6.19349L18.2185 1.95099L2.66248 17.5075V21.75Z"
+                    stroke="white"
+                    stroke-width="4"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.976 6.19348L18.2185 10.436"
+                    stroke="white"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </mask>
+                <g mask="url(#mask0_105_119)">
+                  <path d="M0 0H24V24H0V0Z" />
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo da página -->
+    <main>
+      <!-- seção inicial -->
+      <section id="inicio">
+        <h1>Por Dentro do Barril</h1>
+        <h3>Contemplando uma obra prima da arte cinematográfica</h3>
+      </section>
+
+      <!-- seção história -->
+      <section id="historia">
+        <img src="./assets/elenco.png" alt="#" />
+        <div>
+          <h2>Um pouco de história</h2>
+          <p>
+            Um dos maiores seriados já criados na história da tevelisão. Com
+            décadas de exibição, Chaves se torno um marco na história
+            cinematográfica da America Latina.
+          </p>
+          <p>
+            Conheça um pouco mais da história do programa que impactou gerações.
+          </p>
+          <a href="/historia.html">saiba mais</a>
+        </div>
+      </section>
+
+      <!-- seção personagens -->
+      <section id="personagens">
+        <img src="./assets/moradores-vila.png" alt="" />
+        <div>
+          <h2>Personagens icônicos</h2>
+          <p>
+            Chaves é recheado de personagens icônicos que nos fizeram rir,
+            chorar, sentir raiva e etc. Que tal conhecer um pouco mais sobre os
+            moradores da vila?
+          </p>
+          <a href="/personagens.html">descubra</a>
+        </div>
+      </section>
+
+      <!-- seção idealizadores -->
+      <section id="idealizadores">
+        <img src="./assets/roberto-enrico.png" alt="" />
+        <div>
+          <h2>Idealizadores</h2>
+          <p>
+            Roberto Goméz e Enrique Segoviano foram os dois principais
+            responsáveis por toda a dimensão que chaves alcançou.
+          </p>
+
+          <p>Que tal conhecer um pouco mais dos bastidores?</p>
+          <a href="/idealizadores.html">conhecer</a>
+        </div>
+      </section>
+
+      <!-- seção chapolin -->
+      <section id="chapolin">
+        <img src="./assets/chapolin-cartoon.png" alt="" />
+        <div>
+          <h2>Sigam-me os bons</h2>
+          <p>
+            Vocẽ sabia que o Chapolin Colorado surgiu antes de Chaves? Isso
+            mesmo, um esquete deu origem a um dos heróis mais queridos de todos
+            os tempos. Quer saber um pouco mais? Que tal dar uma olhada no
+            polegar vermelho?
+          </p>
+          <a href="/chapolin.html">polegar vermelho</a>
+        </div>
+      </section>
+
+      <!-- seção vilões -->
+      <section id="viloes">
+        <img src="./assets/cartaz-viloes.png" alt="" />
+        <div>
+          <h2>Sigam-me os maus</h2>
+          <p>
+            Um herói não é nada sem vilões para combater. Conheça o responsável
+            por matar o mar morto e muitos outros vilões temidos de Chapolin.
+          </p>
+          <a href="./viloes.html">procurados</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

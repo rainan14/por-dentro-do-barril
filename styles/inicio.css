@@ -1,0 +1,180 @@
+@import url("./menu.css");
+@import url("./index.css");
+
+:root {
+  --orange: #f6ba21;
+  --dark-orange: #aa5b11;
+  --green: #3f673b;
+  --red: #bc5757;
+  --red-neon: #c21d1d;
+  --blue: #287891;
+  --yellow: #eeb84d;
+  --pink: #ff9670;
+  --white: #fdfdfd;
+  --black: #222;
+}
+
+nav#menu-desktop > ul {
+  color: var(--white);
+}
+
+nav#menu-desktop li.active {
+  border-bottom: 2px solid var(--white);
+}
+
+h1,
+h2,
+h4,
+h5 {
+  font-family: "Limelight", cursive;
+}
+
+h2 {
+  letter-spacing: 6px;
+  word-spacing: 12px;
+}
+
+h2 {
+  margin-bottom: 28px;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  hyphens: auto;
+  line-height: 28px;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+/* seçĩes */
+section {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  min-height: 105vh;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+section > img {
+  width: 400px;
+  border-radius: 16px;
+}
+
+section a {
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 2px 2px 3px #22222230;
+  color: var(--black);
+  float: right;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 32px auto 0 auto;
+  padding: 2px 15px;
+  width: fit-content;
+}
+
+/* seção inicial */
+section#inicio {
+  background: linear-gradient(45deg, var(--dark-orange), var(--orange));
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+section#inicio > h1 {
+  font-size: 2.4rem;
+  font-family: "Limelight", cursive;
+}
+
+section#inicio > h3 {
+  color: #f1f1d5;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+/* seção história */
+section#historia {
+  background: var(--green);
+}
+
+/* seção personagens */
+section#personagens {
+  background: var(--red);
+}
+
+/* seção idealizadores */
+section#idealizadores {
+  background: var(--blue);
+}
+
+/* seção chapolin */
+section#chapolin {
+  background: var(--yellow);
+  color: var(--black);
+}
+
+section#chapolin a {
+  background-color: var(--red-neon);
+  color: var(--white);
+}
+
+section#chapolin img {
+  width: 400px;
+}
+
+/* seção viloes */
+section#viloes {
+  background: var(--pink);
+  color: var(--black);
+}
+
+section#viloes a {
+  background-color: transparent;
+  color: var(--black);
+  border: 2px solid var(--black);
+}
+
+@media (max-width: 990px) {
+  section {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 575px) {
+  img {
+    max-width: 320px;
+    width: 100vw;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  section {
+    padding: 100px 0;
+  }
+
+  section div {
+    width: 90vw;
+  }
+
+  section:last-child {
+    padding-bottom: 200px;
+  }
+}

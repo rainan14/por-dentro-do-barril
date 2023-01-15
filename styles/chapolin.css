@@ -1,0 +1,15 @@
+@import url("./index.css");
+@import url("./menu.css");
+
+:root {
+  --orange: #f6ba21;
+  --dark-orange: #aa5b11;
+  --green: #3f673b;
+  --red: #bc5757;
+  --red-neon: #c21d1d;
+  --blue: #287891;
+  --yellow: #eeb84d;
+  --pink: #ff9670;
+  --white: #fdfdfd;
+  --black: #222;
+}
